@@ -23,8 +23,8 @@ module RX_SYNCHRONIZER
     
     always @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
-            sync_reg <= 1'b0;
-            rx_sync  <= 1'b0;
+            sync_reg <= 1'b1;
+            rx_sync  <= 1'b1;
         end else begin
             sync_reg <= rx;
             rx_sync  <= sync_reg;
