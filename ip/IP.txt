@@ -1,0 +1,2 @@
+This file can be deleted.
+This folder is required to store .xci files
